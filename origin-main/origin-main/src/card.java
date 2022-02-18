@@ -6,6 +6,12 @@ public class card {
 	String valString = "";
 	String suit = "";
 	
+	//default constructor
+	public static void main(String args[])
+	{
+		card c = new card();
+	}
+	
 	//getters and setters for card object
 	public int getValue() {
 		return this.value;

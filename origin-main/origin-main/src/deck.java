@@ -6,6 +6,17 @@ public class deck extends card{
 	int cardCount = 52;
 	String suits[] = { "Hearts", "Diamonds", "Clubs", "Hearts" };
 	card cards[] = new card[52];
+	//initialize the array with card objects with static block
+	{
+		for (int i = 0; i<52; i++)
+			cards[i] = new card();
+	}
+	
+	//default constructor
+	public static void main(String args[])
+	{
+		deck d = new deck();
+	}
 	
 	public void makeDeck() {
 		try {	

@@ -1,15 +1,19 @@
 /**
- * @author Patrick McNierney <patrick.mcnierney@gmail.com>
- * Date Last Updated: 2/18/2022
+ * 
  */
-public class main extends Deck{
+
+/**
+ * @author phatm
+ *
+ */
+public class main extends deck{
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Deck pokerDeck = new Deck(); //make a new Deck
-		pokerDeck.makeDeck(); // initialize Deck
+		deck pokerDeck = new deck(); //make a new deck
+		pokerDeck.makeDeck(); // initialize deck
 		
 		System.out.println("---Before Shuffling---");
 		pokerDeck.printCards();
